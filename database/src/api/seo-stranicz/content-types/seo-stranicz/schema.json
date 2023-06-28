@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seo_straniczs",
+  "info": {
+    "singularName": "seo-stranicz",
+    "pluralName": "seo-straniczs",
+    "displayName": "Seo страниц"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "page_id": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

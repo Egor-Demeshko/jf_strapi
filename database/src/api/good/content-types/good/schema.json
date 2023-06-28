@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "goods",
+  "info": {
+    "singularName": "good",
+    "pluralName": "goods",
+    "displayName": "ТОВАР",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fitid": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "prices": {
+      "type": "json"
+    },
+    "advantages": {
+      "type": "json"
+    },
+    "description": {
+      "type": "text",
+      "unique": true
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo-helper.seo-main"
+    },
+    "category": {
+      "type": "json"
+    }
+  }
+}

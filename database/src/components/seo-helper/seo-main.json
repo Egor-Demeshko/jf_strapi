@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_seo_helper_seo_mains",
+  "info": {
+    "displayName": "SEO main",
+    "icon": "rotate"
+  },
+  "options": {},
+  "attributes": {
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
